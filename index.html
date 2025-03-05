@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viweport" content="whit=device-width, initial-scale=1">
+    </head>
+    <body style="background-color: aquamarine;">
+        <section style="text-align: center;">
+            <H1>Volkswagen Potosina</H1>
+            <h2>Compras Online</h2>
+        </section>
+        <section>
+            <form action="" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Informacion genereal del cliente</legend>
+                    <section style="text-align: center;">
+                    <!--nombre-->
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" maxlength="20" title="Ingrese nombre" required />
+                    <!--apellido paterno-->
+                    <label for="ape-pat">Apellido paterno:</label>
+                    <input type="text" name="ape-pat" id="ape-pat" placeholder="Apellido paterno" maxlength="10" title="Ingrese apellido paterno"/>
+                    <!--apellido materno-->
+                    <label for="ape-mat">Apellido materno:</label>
+                    <input type="text" name="ape-mat" id="ape-mat" placeholder="Apelliod materno" maxlength="10" title="Ingrese apellido materno"/>
+                    <br><br>
+                    <!--Nombre del usuario-->
+                    <label for="username">Nombre de usuario:</label>
+                    <input type="text" name="username" id="username" placeholder="Usuario" maxlength="30" title="Ingrese nombre del ususario" required />
+                    <!--contraseña-->
+                    <label for="pass">Password:</label>
+                    <input type="password" name="pass" id="pass" placeholder="Password" maxlength="40" title="Contraseña" required />
+                    <!--Fecha de registro-->
+                    <label for="reg">Fecha de registro:</label>
+                    <input type="date" id="reg" name="reg" title="Ingrese su fecha de nacimiento">
+                    </section>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos para facturar</legend>
+                    <section style="text-align: center;">
+                        <!--pais-->
+                        <label for="pais">Pais</label>
+                        <select name="pais" id="pais" size="3">
+                            <optgroup label="pais">
+                                <option value="1">Mexico</option>
+                                <option value="2">Canada</option>
+                                <option value="3">Estados Unidos</option>
+                                <option value="4">Reino Unido</option>
+                                <option value="5">Alemania</option>
+                                <option value="6">Argentina</option>
+                                <option value="7">Brasil</option>
+                                <option value="8">España</option>
+                                <option value="9">Japon</option>
+                            </optgroup>
+                        </select>
+                        <!--cuidad-->
+                        <label for="ciudad">Ciudad</label>
+                        <select name="ciudad" id="ciudad" size="3">
+                            <optgroup label="ciudad">
+                                <option value="1" selected>San Luis Potosi</option>
+                                <option value="2">Chihuahua</option>
+                                <option value="3">Hidalgo</option>
+                                <option value="4">Baja California Norte</option>
+                                <option value="5">Baja California Sur</option>
+                                <option value="6">Jalisco</option>
+                                <option value="7">CDMX</option>
+                                <option value="8">Sonora</option>
+                                <option value="9">Veracruz</option>
+                            </optgroup>
+                        </select>
+                        <label for="calle">Calle</label>
+                        <input type="text" name="calle" id="calle" placeholder="Calle" title="Ingrese la calle">
+                        <br><br>
+                        <label for="Num-casa">Numero de casa</label>
+                        <input type="number" name="Num-casa" id="Num-casa" placeholder="Num-casa" title="Ingrese el numero de casa">
+                        <label for="colonia">Colonia</label>
+                        <input type="text" name="colonia" id="colonia" placeholder="Colonia" title="Ingrese la colonia">
+                        <label for="correo">E-mail</label>
+                        <input type="email" name="correo" id="corroe" placeholder="E-mail" title="Ingrese E-mail" required>
+                        <br><br>
+                        <label for="rfc">R.F.C.</label>
+                        <input type="text" name="rfc" id="rfc" placeholder="R.F.C." title="Ingrese el nuemro de su R.F.C." required>
+                        <label for="cp">C.P.</label>
+                        <input type="text" name="cp" id="cp" placeholder="C.P." title="Ingrese codigo postal">
+                        <input type="checkbox" name="terminos" id="terminos" value="1">
+                        <label for="terminos">Acepto terminos y condiciones</label>
+
+                        <input type="submit" name="envio" id="envio" value="Enviar">
+                        <input type="reset" name="borrar" id="borrar" value="Restablecer">
+                    </section>
+                </fieldset>
+            </form>
+        </section>
+    <p style="text-align: right;"><b>Febrero 2025, SLP.</b></p>
+    </body>
+</html>
